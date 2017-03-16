@@ -1,0 +1,73 @@
+body {
+    background-color: lightcyan
+}
+
+div.container {
+    width: 100%;
+}
+
+#main-header {
+    background-color: dimgray;
+    border: transparent;
+    padding: 15px;
+}
+
+.left-col {
+    float: left;
+}
+
+.right-col {
+    float: right;
+    width: 250px;
+    margin-right: 450px;
+}
+
+.reg-fields {
+    height: 20px;
+    width: 250px;
+    border: 1px solid red;
+    margin: 5px;
+    float: left;
+}
+
+.student-login {
+    height: 20px;
+    width: 250px;
+    border: 1px solid red;
+    margin: 5px;
+    float: left;
+}
+
+#login-btn {
+    float: right;
+    margin-right: 20px;
+}
+
+clear {
+    clear: both;
+}
+
+h1 {
+    color: mediumblue;
+}
+
+h2 {
+    display: inline;
+    color: dimgray;
+    font-size: 20px;
+}
+
+h3 {
+    display: inline;
+    color: mediumblue;
+    font-size: 20px;
+}
+
+#myBtn {
+    margin-left: 193px;
+}
+
+.student-login {
+    float: right;
+    margin-right: 20px;
+}
