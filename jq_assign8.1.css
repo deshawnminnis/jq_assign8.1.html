@@ -3,7 +3,7 @@ body {
 }
 
 div.container {
-    width: 100%;
+    width: 780px;
 }
 
 #main-header {
@@ -14,12 +14,19 @@ div.container {
 
 .left-col {
     float: left;
+    width: 250px;
+    height: 50px;
+    top: 10px;
+    clear: left;
 }
 
 .right-col {
     float: right;
     width: 250px;
-    margin-right: 450px;
+    height: 50px;
+    top: 10px;
+    margin-right: 50px;
+    clear: right;
 }
 
 .reg-fields {
@@ -28,6 +35,7 @@ div.container {
     border: 1px solid red;
     margin: 5px;
     float: left;
+    clear: left;
 }
 
 .student-login {
@@ -36,6 +44,7 @@ div.container {
     border: 1px solid red;
     margin: 5px;
     float: left;
+    clear: left;
 }
 
 #login-btn {
@@ -61,6 +70,13 @@ h3 {
     display: inline;
     color: mediumblue;
     font-size: 20px;
+}
+#forgot-pass {
+    font:white;
+    font-size: 15px;
+    margin-right:20px;
+    float: right;
+    clear: right;
 }
 
 #myBtn {
